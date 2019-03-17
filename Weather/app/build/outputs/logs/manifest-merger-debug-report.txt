@@ -1,0 +1,177 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:design:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/96516c8ee5908acc5544303b248beef4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/460b4896aec5eef18c7dade90a79e63b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/90ea19616efde129784c080b1ffbdaa5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/1043e99536e68e8575a3337bc726e664/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/d2a6c8cbff2d769a85917cd562f810f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3425df062fda90c823c6cc3fa964205f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ed90c5e01a127e14502347656f643149/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4b0862aaa58366d27a79faebad5ec2a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e664686c5b422cd838cfb4980db5243e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/077ee31f9f42303c211cc50cfe44c716/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/49cd19e988847cc3ebf7491072d91ee3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/7b4eb7c003bf6dc6249abb2220f96140/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6e2fa6a53c146c553704513726a62f51/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3531e8c618e1db45d7e5e2d5886c5475/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a7aec70f29674293f9cacecd736293ad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6c1c07e58a3c6a043f3d16f648b275df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f6c95c1aa7adb7790d160498c3e7a960/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b0724e4bd2b466208da97b11d015ca97/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/64606ca88488f62d097db6969b332cc3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/76e6ebd5fab4f0659ee9b25b734a3364/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/09702e1993f0af591b37daca9a006520/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a937a293703df564054095f5a3ecb2ab/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f4f14c5162739be4c283323c2cda28cb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9baeee4e1bc0d1d8fc6c9699876def55/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/b166790f38b7562697a215080635f4c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/2bbdd9ef4bc0f144eb89ee9ef7940d13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/dde4e620ccef0190c7f332ad03c285cc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8a70657a1b744d0eaaa2d9beb021ee01/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ba94ef672a241bc2bf41044750c65b57/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c3d0d37c34811b50780ba0b828c26757/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/93511efb461e47ca3789c31c3dd125cb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b907890b1f179e5818cab12f54f53b02/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:7:5-21:19
+MERGED from [com.android.support:design:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/96516c8ee5908acc5544303b248beef4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/96516c8ee5908acc5544303b248beef4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/90ea19616efde129784c080b1ffbdaa5/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/90ea19616efde129784c080b1ffbdaa5/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/1043e99536e68e8575a3337bc726e664/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/1043e99536e68e8575a3337bc726e664/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/09702e1993f0af591b37daca9a006520/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/09702e1993f0af591b37daca9a006520/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a937a293703df564054095f5a3ecb2ab/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a937a293703df564054095f5a3ecb2ab/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/09702e1993f0af591b37daca9a006520/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.najafi.ali.weather.MainActivity
+ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/96516c8ee5908acc5544303b248beef4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/96516c8ee5908acc5544303b248beef4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/460b4896aec5eef18c7dade90a79e63b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/460b4896aec5eef18c7dade90a79e63b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/90ea19616efde129784c080b1ffbdaa5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/90ea19616efde129784c080b1ffbdaa5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/1043e99536e68e8575a3337bc726e664/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/1043e99536e68e8575a3337bc726e664/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/d2a6c8cbff2d769a85917cd562f810f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/d2a6c8cbff2d769a85917cd562f810f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3425df062fda90c823c6cc3fa964205f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/3425df062fda90c823c6cc3fa964205f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ed90c5e01a127e14502347656f643149/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ed90c5e01a127e14502347656f643149/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4b0862aaa58366d27a79faebad5ec2a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4b0862aaa58366d27a79faebad5ec2a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e664686c5b422cd838cfb4980db5243e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e664686c5b422cd838cfb4980db5243e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/077ee31f9f42303c211cc50cfe44c716/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/077ee31f9f42303c211cc50cfe44c716/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/49cd19e988847cc3ebf7491072d91ee3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/49cd19e988847cc3ebf7491072d91ee3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/7b4eb7c003bf6dc6249abb2220f96140/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/7b4eb7c003bf6dc6249abb2220f96140/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6e2fa6a53c146c553704513726a62f51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6e2fa6a53c146c553704513726a62f51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3531e8c618e1db45d7e5e2d5886c5475/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3531e8c618e1db45d7e5e2d5886c5475/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a7aec70f29674293f9cacecd736293ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a7aec70f29674293f9cacecd736293ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6c1c07e58a3c6a043f3d16f648b275df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6c1c07e58a3c6a043f3d16f648b275df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f6c95c1aa7adb7790d160498c3e7a960/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f6c95c1aa7adb7790d160498c3e7a960/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b0724e4bd2b466208da97b11d015ca97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b0724e4bd2b466208da97b11d015ca97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/64606ca88488f62d097db6969b332cc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/64606ca88488f62d097db6969b332cc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/76e6ebd5fab4f0659ee9b25b734a3364/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/76e6ebd5fab4f0659ee9b25b734a3364/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/09702e1993f0af591b37daca9a006520/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/09702e1993f0af591b37daca9a006520/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a937a293703df564054095f5a3ecb2ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a937a293703df564054095f5a3ecb2ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f4f14c5162739be4c283323c2cda28cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f4f14c5162739be4c283323c2cda28cb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9baeee4e1bc0d1d8fc6c9699876def55/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9baeee4e1bc0d1d8fc6c9699876def55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/b166790f38b7562697a215080635f4c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/b166790f38b7562697a215080635f4c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/2bbdd9ef4bc0f144eb89ee9ef7940d13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/2bbdd9ef4bc0f144eb89ee9ef7940d13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/dde4e620ccef0190c7f332ad03c285cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/dde4e620ccef0190c7f332ad03c285cc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8a70657a1b744d0eaaa2d9beb021ee01/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8a70657a1b744d0eaaa2d9beb021ee01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ba94ef672a241bc2bf41044750c65b57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ba94ef672a241bc2bf41044750c65b57/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c3d0d37c34811b50780ba0b828c26757/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c3d0d37c34811b50780ba0b828c26757/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/93511efb461e47ca3789c31c3dd125cb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/93511efb461e47ca3789c31c3dd125cb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b907890b1f179e5818cab12f54f53b02/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/alinajafi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b907890b1f179e5818cab12f54f53b02/AndroidManifest.xml:20:5-44
+INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+		ADDED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alinajafi/AndroidPrograms/Weather/Weather/app/src/main/AndroidManifest.xml
