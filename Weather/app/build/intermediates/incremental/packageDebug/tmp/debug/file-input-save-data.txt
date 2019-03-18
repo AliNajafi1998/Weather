@@ -1,11 +1,15 @@
 #Internal package file, do not edit.
-#Sun Mar 17 22:43:24 IRST 2019
+#Mon Mar 18 13:14:07 IRST 2019
 1.base=/home/alinajafi/AndroidPrograms/Weather/Weather/app/build/intermediates/dex/debug/mergeDexDebug/out
+2.path=db_city
 0.baseType=DIRECTORY
+2.base=/home/alinajafi/AndroidPrograms/Weather/Weather/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+2.set=ASSET
 1.baseType=DIRECTORY
-count=2
+count=3
 1.set=DEX
 0.path=fonts/weathericons-regular-webfont.ttf
 0.set=ASSET
 0.base=/home/alinajafi/AndroidPrograms/Weather/Weather/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+2.baseType=DIRECTORY
 1.path=classes.dex

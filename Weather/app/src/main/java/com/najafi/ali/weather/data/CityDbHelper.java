@@ -38,9 +38,9 @@ public class CityDbHelper extends SQLiteOpenHelper {
     public CityDbHelper(Context context) {
         super(context, DBNAME, null, DBVERSION);
         this.context = context;
-        if (getCities(null, null).isEmpty()) {
-            initContents(getWritableDatabase());
-        }
+//        if (getCities(null, null).isEmpty()) {
+//            initContents(getWritableDatabase());
+//        }
     }
 
 
@@ -48,7 +48,7 @@ public class CityDbHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(CD_CREATE_CITY_TB);
         Log.i(TAG, "TABLE CREATED!");
-        initContents(db);
+//        initContents(db);
 
     }
 
@@ -59,36 +59,36 @@ public class CityDbHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public void initContents(final SQLiteDatabase db) {
-        Thread thread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-
-
-                    InputStream stream = context.getResources().openRawResource(R.raw.city_list);
-                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(stream));
-                    String line = "";
-                    while ((line = bufferedReader.readLine()) != null) {
-                        String[] data = line.split("\t");
-                        if (data.length < 5) {
-                            continue;
-                        }
-                        long insertID = db.insert(TABLE_CITY, null,
-                                CityModel.createContentValues(Long.valueOf(data[0]), data[1],
-                                        Double.valueOf(data[2]), Double.valueOf(data[3]), data[4], false));
-                        Log.i("dbHelper", "city inserted with id = " + insertID);
-                    }
-
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-        thread.start();
-
-
-    }
+//    public void initContents(final SQLiteDatabase db) {
+//        Thread thread = new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                try {
+//
+//
+//                    InputStream stream = context.getResources().openRawResource(R.raw.city_list);
+//                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(stream));
+//                    String line = "";
+//                    while ((line = bufferedReader.readLine()) != null) {
+//                        String[] data = line.split("\t");
+//                        if (data.length < 5) {
+//                            continue;
+//                        }
+//                        long insertID = db.insert(TABLE_CITY, null,
+//                                CityModel.createContentValues(Long.valueOf(data[0]), data[1],
+//                                        Double.valueOf(data[2]), Double.valueOf(data[3]), data[4], false));
+//                        Log.i("dbHelper", "city inserted with id = " + insertID);
+//                    }
+//
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        });
+//        thread.start();
+//
+//
+//    }
 
 //    public void insertCityToDb(CityModel cityModel) {
 //        SQLiteDatabase db = this.getWritableDatabase();
