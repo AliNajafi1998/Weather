@@ -4,6 +4,8 @@ package com.najafi.ali.weather;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.najafi.ali.weather.data.CityDbHelper;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -12,8 +14,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         getSupportFragmentManager().beginTransaction().add(R.id.weather_fragment,
-                new WeatherFragment()).commit();
+                 WeatherFragment.newInstance("Tabriz")).commit();
 
+        CityDbHelper cityDbHelper = new CityDbHelper(this);
 
 
     }
