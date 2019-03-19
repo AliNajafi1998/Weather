@@ -21,6 +21,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.najafi.ali.weather.CitiesActivity"
+            android:label="@string/title_activity_cities"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.najafi.ali.weather.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

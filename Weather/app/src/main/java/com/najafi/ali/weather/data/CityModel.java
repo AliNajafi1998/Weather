@@ -89,7 +89,7 @@ public class CityModel {
 
     public static CityModel fromCursor(Cursor cursor) {
         CityModel city = new CityModel();
-        city.setId(cursor.getColumnIndex("id"));
+        city.setId(cursor.getLong(cursor.getColumnIndex("id")));
         city.setName(cursor.getString(cursor.getColumnIndex("name")));
         city.setLat(cursor.getDouble(cursor.getColumnIndex("lat")));
         city.setLon(cursor.getDouble(cursor.getColumnIndex("lon")));

@@ -66,7 +66,7 @@ public class WeatherFragment extends Fragment {
         tv_city = view.findViewById(R.id.city);
         tv_temperature = view.findViewById(R.id.temperature);
         tv_details = view.findViewById(R.id.details);
-        tv_weatherIcon = (TextViewWeather) view.findViewById(R.id.weather_icon);
+        tv_weatherIcon =  view.findViewById(R.id.weather_icon);
 
 
         return view;

@@ -1,17 +1,12 @@
 package com.najafi.ali.weather.data;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.najafi.ali.weather.R;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -97,19 +92,51 @@ public class CityDbHelper extends SQLiteOpenHelper {
 //        db.close();
 //    }
 
+    public void updateCitySelected(long id, boolean selected) {
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues cv = new ContentValues();
+        cv.put("selected", selected ? 1 : 0);
+
+        long res = db.update(TABLE_CITY, cv, "id = " + id, null);
+        Log.d("dbhelper", "updated  id  = " + id);
+        Log.d("dbhelper", "updated result = " + res);
+        db.close();
+    }
+
+
     public List<CityModel> getCities(String selection, String[] selectionArgs) {
-        List<CityModel> cityList = new ArrayList<>();
+        List<CityModel> citylist = new ArrayList<>();
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.query(TABLE_CITY, allColumns, selection, selectionArgs, null, null, "countryCode, name");
+        Log.d("dbhelper", "cursor returned " + cursor.getCount() + " records.");
         if (cursor.moveToFirst()) {
             do {
-                cityList.add(CityModel.fromCursor(cursor));
+                citylist.add(CityModel.fromCursor(cursor));
             } while (cursor.moveToNext());
         }
-
-
         cursor.close();
         db.close();
-        return cityList;
+        return citylist;
     }
+
+    public List<CityModel> searchCityByName(String cityName, String limit) {
+        List<CityModel> citylist = new ArrayList<>();
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.query(true, TABLE_CITY, allColumns,
+                "name LIKE '" + cityName + "%'",
+                null, null, null, "countryCode, name", limit);
+
+        Log.d("dbhelper", "cursor returned " + cursor.getCount() + " records.");
+        if (cursor.moveToFirst()) {
+            do {
+                citylist.add(CityModel.fromCursor(cursor));
+            } while (cursor.moveToNext());
+        }
+        cursor.close();
+
+        db.close();
+        return citylist;
+    }
+
+
 }
