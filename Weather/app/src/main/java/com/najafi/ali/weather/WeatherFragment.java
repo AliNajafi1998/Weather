@@ -31,11 +31,11 @@ public class WeatherFragment extends Fragment {
     TextViewWeather tv_weatherIcon;
 
     private static final String TAG = WeatherFragment.class.getSimpleName();
-    private String city = "";
 
-    public static final String APP_KEY = "acc64bde9b30d3374d499cc8dc2c0769";
-    public static final String URL_FORMAT = "http://api.openweathermap.org/data/2.5/weather?q=%s&units=metric&APPID=" + APP_KEY;
-
+    private String cityName, details;
+    private double temperature;
+    private long sunrise, sunset;
+    private int weatherId;
 
     public static WeatherFragment newInstance(String city) {
         WeatherFragment fragment = new WeatherFragment();
@@ -46,16 +46,24 @@ public class WeatherFragment extends Fragment {
         return fragment;
     }
 
+    public static WeatherFragment newInstance(Bundle args) {
+        WeatherFragment fragment = new WeatherFragment();
+        fragment.setArguments(args);
+
+        return fragment;
+    }
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.city = getArguments().getString("city");
-        if (city == null) {
-            this.city = "Tabriz";
 
-        }
-        requestData(city);
-
+        Bundle args = getArguments();
+        cityName = args.getString("cityName");
+        temperature = args.getDouble("temperature");
+        sunrise = args.getLong("sunrise");
+        sunset = args.getLong("sunset");
+        weatherId = args.getInt("weatherId");
+        details = args.getString("details");
     }
 
     @Nullable
@@ -66,15 +74,25 @@ public class WeatherFragment extends Fragment {
         tv_city = view.findViewById(R.id.city);
         tv_temperature = view.findViewById(R.id.temperature);
         tv_details = view.findViewById(R.id.details);
-        tv_weatherIcon =  view.findViewById(R.id.weather_icon);
+        tv_weatherIcon = view.findViewById(R.id.weather_icon);
 
-
+        fill();
         return view;
+    }
+
+    private void fill() {
+
+        tv_city.setText(cityName);
+        tv_temperature.setText(String.format(Locale.getDefault(), "%.0f %s", temperature, Html.fromHtml("&#8451;")));
+        tv_details.setText(details);
+        tv_weatherIcon.setWeatherIcon(weatherId, sunrise, sunset);
+
+
     }
 
 
     private void requestData(String cityName) {
-        String URL = String.format(Locale.getDefault(), URL_FORMAT, cityName);
+        String URL = String.format(Locale.getDefault(), App.URL_FORMAT_BY_CITY_NAME, cityName);
         final JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, URL, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
@@ -113,5 +131,44 @@ public class WeatherFragment extends Fragment {
 
     }
 
+    private void requestData(long cityId) {
+        String URL = String.format(Locale.getDefault(), App.URL_FORMAT_BY_CITY_ID, cityId);
+        final JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, URL, null, new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
+                try {
+                    JSONArray details = response.getJSONArray("weather");
+                    JSONObject sys = response.getJSONObject("sys");
+                    tv_city.setText(response.getString("name").toUpperCase() + ", " + response.getJSONObject("sys").getString("country"));
+
+
+                    double temp = response.getJSONObject("main").getDouble("temp");
+                    tv_temperature.setText(String.format(Locale.US, "%.0f %s", temp, Html.fromHtml("&#8451;")));
+
+
+                    tv_details.setText(details.getJSONObject(0).getString("description"));
+
+                    long sunrise = sys.getLong("sunrise");
+                    long sunset = sys.getLong("sunset");
+                    int weatherId = details.getJSONObject(0).getInt("id");
+
+                    tv_weatherIcon.setWeatherIcon(weatherId, sunrise, sunset);
+
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e(TAG, "error :  \n " + error.getMessage());
+            }
+        });
+
+        RequestQueue queue = Volley.newRequestQueue(getContext());
+        queue.add(request);
+
+    }
 
 }

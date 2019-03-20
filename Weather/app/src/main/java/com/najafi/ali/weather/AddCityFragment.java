@@ -9,6 +9,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SearchView;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,21 +26,21 @@ import java.util.List;
 public class AddCityFragment extends DialogFragment {
 
 
-
     private RecyclerView recyclerView;
     private SearchView searchView;
     private MyAdapter adapter;
     private AddCityInterface iactivity;
     CityDbHelper dbHelper;
     List<CityModel> citylist;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_add_city, container, false);
-        recyclerView =  view.findViewById(R.id.recycler_view);
+        recyclerView = view.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         dbHelper = new CityDbHelper(getContext());
-        searchView =  view.findViewById(R.id.search_view);
+        searchView = view.findViewById(R.id.search_view);
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -74,7 +75,7 @@ public class AddCityFragment extends DialogFragment {
 
         private List<CityModel> cityList;
 
-        public MyAdapter( List<CityModel> cityList) {
+        public MyAdapter(List<CityModel> cityList) {
             this.cityList = cityList;
         }
 
@@ -127,8 +128,7 @@ public class AddCityFragment extends DialogFragment {
         super.onAttach(activity);
         try {
             this.iactivity = (AddCityInterface) activity;
-        }
-        catch (final ClassCastException e) {
+        } catch (final ClassCastException e) {
             throw new ClassCastException(activity.toString() + " must implement OnCompleteListener");
         }
     }
@@ -137,4 +137,19 @@ public class AddCityFragment extends DialogFragment {
     interface AddCityInterface {
         void addCity(long cityId);
     }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        changeDialogSize();
+    }
+
+    private void changeDialogSize() {
+        DisplayMetrics metrics = new DisplayMetrics();
+        getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
+
+        getDialog().getWindow().setLayout((int) (metrics.widthPixels * 0.9), ViewGroup.LayoutParams.WRAP_CONTENT);
+
+    }
+
 }
